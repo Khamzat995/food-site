@@ -536,6 +536,10 @@ header .navbar a:hover{
   color:var(--red);
 }
 
+.social {
+  display: flex;
+}
+
 #scroll-top{
   position: fixed;
   top:-120%;
