@@ -670,6 +670,9 @@ header .navbar a:hover{
     width: 100px;
     align-items: center;
 }
+.order .row form .contact-one .social {
+  display: flex;
+}
 }
 
 @media screen and (max-width: 600px) {
