@@ -29,13 +29,16 @@ html{
 body{
   background:#f7f7f7;
 }
+
 a {
-  text-decoration: none; /* Убираем подчёркивание */
+  text-decoration: none; 
   color:#FFA500;
  }
+
  a:hover {
-  color: #f7f7f7; /* Новый цвет текста */
+  color: #f7f7f7; 
  }
+
 section{
   padding:2rem 9%;
 }
