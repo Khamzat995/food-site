@@ -689,4 +689,7 @@ header .navbar a:hover{
     width: 25px;
     height: 24px;
   }
+  .order .row form .contact-one .social {
+    display: flex;
+  }
 }
