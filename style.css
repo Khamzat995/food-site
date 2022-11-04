@@ -60,6 +60,10 @@ section {
   color: var(--red);
 }
 
+.heading-one a {
+  color: #666
+}
+
 .btn {
   display: inline-block;
   padding: .8rem 3rem;
@@ -95,8 +99,82 @@ section {
   color: #fff;
 }
 
+/* btn - курсы */
+.btn-kurs {
+  display: inline-block;
+  padding: .8rem 3rem;
+  border: .2rem solid var(--red);
+  color: var(--red);
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+  margin-left: 20px;
+
+}
+
+.btn-kurs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: var(--red);
+  transition: .3s linear;
+  z-index: -1;
+}
+
+.btn-kurs:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.btn-kurs:hover {
+  color: #fff;
+}
+
+/* мигающий текст */
+
+#blink {
+  -webkit-animation: blink 2s linear infinite;
+  animation: blink 2s linear infinite;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    color: rgb(34, 34, 34);
+  }
+
+  51% {
+    color: rgba(34, 34, 34, 0);
+  }
+
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
+}
+
+@keyframes blink {
+  50% {
+    color: rgb(34, 34, 34);
+  }
+
+  51% {
+    color: rgba(34, 34, 34, 0);
+  }
+
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
+}
+
+
 /*btn-black*/
-/**/
+
 .btn-black {
   display: inline-block;
   padding: .8rem 3rem;
@@ -156,7 +234,7 @@ header .logo {
 }
 
 header .logo i {
-  padding-right: .5rem;
+  padding-right: 1rem;
   color: var(--red);
   /*animation:float 5s linear infinite;*/
 }
@@ -207,6 +285,16 @@ header .navbar a:hover {
   animation: float 3s linear infinite;
 }
 
+.home .image-1 {
+  flex: 1 1 40rem;
+}
+
+.home .image-1 img {
+  width: 100%;
+  padding: 1rem;
+  /* animation: float 3s linear infinite; */
+}
+
 @keyframes float {
 
   0%,
@@ -254,6 +342,7 @@ header .navbar a:hover {
   /* Pivot around the bottom-left palm */
   display: inline-block;
   font-size: 20px;
+  margin-top: 1rem;
 }
 
 .wave img {
@@ -306,13 +395,17 @@ header .navbar a:hover {
   transform-origin: 70% 70%;
   /* Pivot around the bottom-left palm */
   display: inline-block;
-
+  margin-top: 1rem;
 }
 
 .qave img {
   max-width: 30px;
   margin-left: 3px;
   margin-right: 3px;
+}
+
+.stopit img {
+  max-width: 30px;
 }
 
 @keyframes qave-animation {
@@ -375,6 +468,19 @@ header .navbar a:hover {
   object-fit: cover;
 
 }
+
+.speciality .box-container .box .anime {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 2rem;
+  color: rgb(90, 89, 89);
+  background-color: #f7f7f784;
+  padding: 2px;
+  border-radius: 10%;
+
+}
+
 
 .speciality .box-container .box .content {
   position: absolute;
