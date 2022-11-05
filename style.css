@@ -126,11 +126,13 @@ section {
   background: var(--red);
   transition: .3s linear;
   z-index: -1;
+
 }
 
 .btn-kurs:hover::before {
   width: 100%;
   left: 0;
+  color: #fff;
 }
 
 .btn-kurs:hover {
@@ -146,29 +148,29 @@ section {
 
 @-webkit-keyframes blink {
   50% {
-    color: rgb(34, 34, 34);
+    color: rgb(178, 49, 49);
   }
 
   51% {
-    color: rgba(34, 34, 34, 0);
+    color: rgb(178, 49, 49, 0);
   }
 
   100% {
-    color: rgba(34, 34, 34, 0);
+    color: rgb(178, 49, 49, 0);
   }
 }
 
 @keyframes blink {
   50% {
-    color: rgb(34, 34, 34);
+    color: rgb(178, 49, 49);
   }
 
   51% {
-    color: rgba(34, 34, 34, 0);
+    color: rgb(178, 49, 49, 0);
   }
 
   100% {
-    color: rgba(34, 34, 34, 0);
+    color: rgb(178, 49, 49, 0);
   }
 }
 
@@ -270,9 +272,11 @@ header .navbar a:hover {
   background-position: center;
 }
 
+
+
 .home .content {
   flex: 1 1 40rem;
-  padding-top: 6.5rem;
+  padding-top: 8rem;
 }
 
 .home .image {
@@ -329,6 +333,82 @@ header .navbar a:hover {
   color: #666;
   padding: 1rem 0;
 }
+
+/* home-1 */
+
+.home-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 50vh;
+  align-items: center;
+  background: url(./images/home-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.home-1 .content {
+  flex: 1 1 40rem;
+  padding-top: 2rem;
+}
+
+.home-1 .image {
+  flex: 1 1 40rem;
+}
+
+.home-1 .image img {
+  width: 100%;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+
+.home-1 .image-1 {
+  flex: 1 1 40rem;
+}
+
+/* .home-1 .image-1 img {
+  width: 100%;
+  padding: 1rem;
+   animation: float 3s linear infinite; 
+} */
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+
+  50% {
+    transform: translateY(3rem);
+  }
+}
+
+.home-1 .content h3 {
+  font-size: 5rem;
+  color: #333;
+}
+
+.home-1 .content p {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.home-1 .content h4 {
+  font-size: 3rem;
+  color: #333;
+  padding-top: 10px;
+}
+
+.home-1 .content h5 {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
 
 /* анимация */
 .wave {
@@ -462,11 +542,17 @@ header .navbar a:hover {
   border-radius: .5rem;
 }
 
+.speciality .box-container .box h3 {
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: rgba(0, 0, 0, .2) 1px 1px 1px;
+
+}
+
+
 .speciality .box-container .box .image {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
 
 .speciality .box-container .box .anime {
@@ -478,9 +564,12 @@ header .navbar a:hover {
   background-color: #f7f7f784;
   padding: 2px;
   border-radius: 10%;
-
 }
 
+.speciality .box-container .box .anime span {
+  color: rgb(255, 115, 0);
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+}
 
 .speciality .box-container .box .content {
   position: absolute;
