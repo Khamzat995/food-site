@@ -115,7 +115,6 @@ let hot = [
     }
 ]
 
-
 let ice = [
     {
         price: "50",
@@ -202,7 +201,6 @@ let ice = [
         name: "Мясной рулет",
         total: "₺390 - 1 шт."
     }
-
 ]
 
 let steps = [
