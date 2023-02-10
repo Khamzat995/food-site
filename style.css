@@ -597,7 +597,7 @@ header .navbar a:hover {
 .speciality .box-container .box .content p {
   font-size: 1.6rem;
   color: #666;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .speciality .box-container .box:hover .content {
