@@ -6,6 +6,7 @@ for (let i of bluda_1) {
   let imageOne = document.createElement('img')
   imageOne.classList.add('image');
   imageOne.setAttribute('src', i.imageOne);
+  imageOne.setAttribute('alt', "картинка");
   box.appendChild(imageOne);
 
   let titleOne = document.createElement("h3")
@@ -23,6 +24,7 @@ for (let i of bluda_1) {
   let imageTwo = document.createElement('img');
   imageTwo.classList.add('icon-plate');
   imageTwo.setAttribute('src', i.imageTwo);
+  imageTwo.setAttribute('alt', "картинка");
 
   content.appendChild(imageTwo);
 
@@ -39,6 +41,7 @@ for (let i of bluda_1) {
 
   let imgSpan = document.createElement('img');
   imgSpan.setAttribute("src", i.imageThree);
+  imgSpan.setAttribute("alt", "картника");
   imageThree.appendChild(imgSpan);
 
   content.appendChild(imageThree);
@@ -55,6 +58,7 @@ for (let i of bluda_2) {
   let imageOne = document.createElement('img');
   imageOne.classList.add('image');
   imageOne.setAttribute('src', i.imageOne);
+  imageOne.setAttribute('alt', "картинка");
   box.appendChild(imageOne);
 
   let titleOne = document.createElement("h3")
@@ -72,6 +76,7 @@ for (let i of bluda_2) {
   let imageTwo = document.createElement('img');
   imageTwo.classList.add('icon-plate');
   imageTwo.setAttribute('src', i.imageTwo);
+  imageTwo.setAttribute('alt', "картинка");
 
   content.appendChild(imageTwo);
 
@@ -88,6 +93,7 @@ for (let i of bluda_2) {
 
   let imgSpan = document.createElement('img');
   imgSpan.setAttribute("src", i.imageThree);
+  imgSpan.setAttribute("alt", "картинка");
   imageThree.appendChild(imgSpan);
 
   content.appendChild(imageThree);
@@ -104,6 +110,7 @@ for (let i of salates) {
   let imageOne = document.createElement('img');
   imageOne.classList.add('image');
   imageOne.setAttribute('src', i.imageOne);
+  imageOne.setAttribute('alt', "картинка");
   box.appendChild(imageOne);
 
   let titleOne = document.createElement("h3");
@@ -121,6 +128,7 @@ for (let i of salates) {
   let imageTwo = document.createElement('img');
   imageTwo.classList.add('icon-plate');
   imageTwo.setAttribute('src', i.imageTwo);
+  imageTwo.setAttribute('alt', "картинка");
 
   content.appendChild(imageTwo);
 
@@ -137,6 +145,7 @@ for (let i of salates) {
 
   let imgSpan = document.createElement('img');
   imgSpan.setAttribute("src", i.imageThree);
+  imgSpan.setAttribute("alt", "картинка");
   imageThree.appendChild(imgSpan);
 
   content.appendChild(imageThree);
@@ -153,6 +162,8 @@ for (let i of vipechka) {
   let imageOne = document.createElement('img');
   imageOne.classList.add('image');
   imageOne.setAttribute('src', i.imageOne);
+  imageOne.setAttribute('alt', "картинка");
+
   box.appendChild(imageOne);
 
   let titleOne = document.createElement("h3");
@@ -170,7 +181,7 @@ for (let i of vipechka) {
   let imageTwo = document.createElement('img');
   imageTwo.classList.add('icon-plate');
   imageTwo.setAttribute('src', i.imageTwo);
-
+  imageTwo.setAttribute('alt', 'картинка');
   content.appendChild(imageTwo);
 
   let titleTwo = document.createElement('h3');
@@ -186,6 +197,7 @@ for (let i of vipechka) {
 
   let imgSpan = document.createElement('img');
   imgSpan.setAttribute("src", i.imageThree);
+  imgSpan.setAttribute('alt', 'картинка')
   imageThree.appendChild(imgSpan);
 
   content.appendChild(imageThree);
@@ -202,6 +214,8 @@ for (let i of sladosti) {
   let imageOne = document.createElement('img');
   imageOne.classList.add('image');
   imageOne.setAttribute('src', i.imageOne);
+  imageOne.setAttribute('alt', "картинка");
+
   box.appendChild(imageOne);
 
   let titleOne = document.createElement("h3");
@@ -219,7 +233,7 @@ for (let i of sladosti) {
   let imageTwo = document.createElement('img');
   imageTwo.classList.add('icon-plate');
   imageTwo.setAttribute('src', i.imageTwo);
-
+  imageTwo.setAttribute("alt", "картинка");
   content.appendChild(imageTwo);
 
   let titleTwo = document.createElement('h3');
@@ -235,6 +249,7 @@ for (let i of sladosti) {
 
   let imgSpan = document.createElement('img');
   imgSpan.setAttribute("src", i.imageThree);
+  imgSpan.setAttribute("alt", "картинка");
   imageThree.appendChild(imgSpan);
 
   content.appendChild(imageThree);

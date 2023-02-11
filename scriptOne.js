@@ -10,6 +10,7 @@ for (let i of hot) {
 
   let image = document.createElement('img');
   image.setAttribute('src', i.image);
+  image.setAttribute("alt", "картинка");
   box.appendChild(image);
 
   let name = document.createElement('h3');
@@ -36,6 +37,7 @@ for (let i of ice) {
 
   let image = document.createElement('img');
   image.setAttribute('src', i.image);
+  image.setAttribute("alt", "картинка");
   box.appendChild(image);
 
   let name = document.createElement('h3');
@@ -57,6 +59,7 @@ for (let i of steps) {
 
   let image = document.createElement('img');
   image.setAttribute('src', i.image);
+  image.setAttribute("alt", "картинка");
   box.appendChild(image);
 
   let title = document.createElement('h3');
