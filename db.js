@@ -1,205 +1,237 @@
 let hot = [
     {
+        id: 1,
         price: "150",
         image: "images/kotam_gal.webp",
         name: "Галушки с курицей",
-        total: "₺150 порция"
+        notes: "1 порция"
     },
     {
+        id: 2,
         price: "150",
         image: "images/manty.webp",
         name: "Манты",
-        total: "₺150 порция"
+        notes: "1 порция"
     },
     {
+        id: 3,
         price: "50",
         image: "images/chepalg.webp",
         name: "Чепалг",
-        total: "₺50 - 1 шт."
+        notes: "1 шт."
     },
     {
+        id: 4,
         price: "50",
         image: "images/hingal1.webp",
         name: "Хингал",
-        total: "₺50 - 1 шт"
+        notes: "1 шт."
     },
     {
-        price: "120",
+        id: 5,
+        price: "150",
         image: "images/960m.webp",
         name: "Котлеты с гарниром",
-        total: "₺120 порция"
+        notes: "1 порция"
     },
     {
-        price: "120",
+        id: 6,
+        price: "150",
         image: "images/pelmen.webp",
         name: "Пельмени",
-        total: "₺120 порция"
+        notes: "1 порция"
     },
     {
+        id: 7,
         price: "30",
         image: "images/item_1701.webp",
         name: "Блинчики с начинкой",
-        total: "₺30 - 1 шт."
+        notes: "1 шт."
     },
     {
+        id: 8,
         price: "150",
         image: "images/photo5274085003740952491.webp",
         name: "Сырники",
-        total: "₺150 - 10 шт."
+        notes: "10 шт."
     },
     {
         price: "250",
         image: "images/photo5274085003740952552.webp",
         name: "Гуляш",
-        total: "₺250 порция"
+        notes: "1 порция"
     },
     {
+        id: 9,
         price: "150",
         image: "images/kurze.webp",
         name: "Курзе",
-        total: "₺150 порция"
+        notes: "1 порция"
     },
     {
-        price: "120",
+        id: 10,
+        price: "150",
         image: "images/plov_myso.webp",
         name: "Плов",
-        total: "₺120 порция"
+        notes: "1 порция"
     },
     {
+        id: 11,
         price: "100",
         image: "images/a_borsh.webp",
         name: "Борщ красный",
-        total: "₺100 порция"
+        notes: "1 порция"
     },
     {
+        id: 12,
         price: "100",
         image: "images/a_siskal.webp",
         name: "Сискал",
-        total: "₺100 порция"
+        notes: "1 порция"
     },
     {
+        id: 13,
         price: "350",
         image: "images/a_peshen.webp",
         name: "Печеночный торт",
-        total: "₺350"
+        notes: "1 шт."
     },
     {
+        id: 14,
         price: "250",
         image: "images/a_pechen_rulet.webp",
         name: "Печеночный рулет",
-        total: "₺250"
+        notes: "1 шт."
     },
     {
+        id: 15,
         price: "100",
         image: "images/hovla.webp",
         name: "Пирог Чак-Чак",
-        total: "₺100 порция"
+        notes: "1 порция"
     },
     {
+        id: 16,
         price: "50",
         image: "images/trifles.webp",
         name: "Трайфлы",
-        total: "₺50 - 1 шт."
+        notes: "1 шт."
     },
     {
+        id: 17,
         price: "50",
         image: "images/trifles_1.webp",
         name: "Трайфлы",
-        total: "₺50 - 1 шт."
+        notes: "1 шт."
     },
     {
+        id: 18,
         price: "100",
         image: "images/trifles_2.webp",
         name: "Трайфлы",
-        total: "₺100 - 1 шт."
+        notes: "1 шт."
     }
 ]
 
 let ice = [
     {
+        id: 19,
         price: "50",
         image: "images/photo5274085003740952487.webp",
         name: "Пшеничные галушки",
-        total: "₺50 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "190",
+        id: 20,
+        price: "220",
         image: "images/photomanty.webp",
         name: "Манты",
-        total: "₺190 - 1 кг."
+        notes: "1 кг."
     },
     {
+        id: 21,
         price: "150",
         image: "images/pelmen_form.webp",
         name: "Пельмени на формочке",
-        total: "₺150 - 1 кг."
+        notes: "1 кг."
     },
     {
+        id: 22,
         id: 4,
-        price: "190",
+        price: "200",
         image: "images/photo5274085003740952495.webp",
         name: "Пельмени ручные",
-        total: "₺190 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "200",
+        id: 23,
+        price: "220",
         image: "images/kurze_2.webp",
         name: "Курзе",
-        total: "₺200 - 1 кг."
+        notes: "1 кг."
     },
     {
+        id: 24,
         price: "120",
         image: "images/vareniki_moroz.webp",
         name: "Вареники",
-        total: "₺120 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "300",
+        id: 25,
+        price: "350",
         image: "images/photo5274085003740952490.webp",
         name: "Голубцы с капустой",
-        total: "₺300 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "300",
+        id: 26,
+        price: "350",
         image: "images/photo5274085003740952493.webp",
         name: "Перчики фаршированные",
-        total: "₺300 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "300",
+        id: 27,
+        price: "350",
         image: "images/kotleti-4.webp",
         name: "Котлеты (говядина)",
-        total: "₺300 - 1 кг."
+        notes: "1 кг."
     },
     {
+        id: 28,
         price: "250",
         image: "images/a_kura.webp",
         name: "Котлеты (курица)",
-        total: "₺250 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "300",
+        id: 29,
+        price: "350",
         image: "images/photo5451806313748216331.webp",
         name: "Тефтели",
-        total: "₺300 - 1 кг."
+        notes: "1 кг."
     },
     {
-        price: "380",
-        image: "images/photo5451806313748216329.webp",
-        name: "Баараш",
-        total: "₺380 - 1 кг."
-    },
-    {
+        id: 30,
         price: "150",
         image: "images/photo5451806313748216332.webp",
         name: "Фаршированый рулет",
-        total: "₺150 - 1 шт."
+        notes: "1 шт."
     },
     {
+        id: 31,
         price: "390",
         image: "images/photo5451806313748216340.webp",
         name: "Мясной рулет",
-        total: "₺390 - 1 шт."
+        notes: "1 кг."
+    },
+    {
+        id: 32,
+        price: "450",
+        image: "images/photo5451806313748216329.webp",
+        name: "Баараш",
+        notes: "1 кг."
     }
 ]
 

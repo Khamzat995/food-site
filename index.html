@@ -12,7 +12,7 @@
 
     <link rel="icon" href="images/logo_icon_title.webp" type="image/webp ">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
     <script src="db.js"></script>
@@ -22,6 +22,14 @@
     <!-- header section starts  -->
     <header>
         <a href="#" class="logo"><i class="fas fa-utensils"></i>Национальные блюда на заказ</a>
+        <a href="#cart">
+            <div class="card-div">
+
+                <div id="cifra">0</div>
+                <img class="counter-card" src='images/shopping_cart.webp' width="30px"></img>
+
+            </div>
+        </a>
         <div id="menu-bar" class="fas fa-bars"></div>
         <nav class="navbar">
             <a href="index-kurs.html">Кулинарные курсы</a>
@@ -71,6 +79,70 @@
         <div class="box-container" id="productContainerTwo"></div>
     </section>
     <!-- popular section ends -->
+
+    <section class="popular" id="cart">
+        <!-- КОРЗИНА -->
+        <!-- Корзина -->
+        <div class="col-md-4">
+
+            <!-- Корзина -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Ваш заказ</h3>
+
+                    <div data-cart-empty class="alert alert-secondary" role="alert">
+                        Корзина пуста
+                    </div>
+
+                    <!-- cart-wrapper -->
+                    <div class="cart-wrapper">
+
+                    </div>
+                    <!-- // cart-wrapper -->
+
+                    <!-- Стоимость заказа -->
+                    <div class="cart-total">
+                        <p data-cart-delivery class="none">
+                            <span class="small">Минимальная сумма заказа от 300 ₺</span></br>
+                            <span class="h55">Доставка:</span>
+                            <span class="delivery-cost">250 ₺</span><br>
+                            <!-- <span class="small">при заказе от 2000₺ бесплатно</span> -->
+                        </p>
+                        <p><span class="h5">Итого:</span>
+                            <span class="total-price">0</span>
+                            <span class="rouble">₺</span>
+                        </p>
+                    </div>
+                    <!-- // Стоимость заказа -->
+
+                </div>
+
+                <!-- Оформить заказ -->
+                <div id="order-form" class="card-body border-top none">
+                    <a href="https://api.whatsapp.com/send?phone=905357431885" target="_blank">
+                        <button class="btn btn-orange">
+                            <div class="order-btn">
+                                Заказать
+                                <img src="/images/WhatsApp.svg" width="40px">
+                            </div>
+                        </button></a>
+                    <!-- <h5 class="card-title">Оформить заказ</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                            </div>
+
+                        </form> -->
+                </div>
+                <!-- // Оформить заказ -->
+
+            </div>
+            <!-- // Корзина -->
+
+        </div>
+        <!-- КОРЗИНА ФИНИШ-->
+    </section>
+
 
     <!-- steps section starts  -->
     <div class="step-container">
@@ -134,13 +206,14 @@
             </div>
             <form action="">
                 <div class="contact-one">
-                    <h1 class="heading-one" id="blink"> <span>Минимальная сумма заказа </span> от 300 ₺</span> </h1>
+                    <!-- <h1 class="heading-one" id="blink"> <span>Минимальная сумма заказа </span> от 300 ₺</span> </h1> -->
                     <h1 class="heading-one"> <span>Телефон </span><a href="tel:+905357431885"> +90 535-743-18-85 </h1>
                     </a>
                     <div class="social" style="display: flex">
                         <h1 class="heading-one"> <span>Жми </span> на кнопку </h1>
                         <div class="sociales">
-                            <a href="https://api.whatsapp.com/send?phone=905357431885" style="margin-left: 5%">
+                            <a href="https://api.whatsapp.com/send?phone=905357431885" style="margin-left: 5%"
+                                target="_blank">
                                 <div class="pulse">
                                     <img src=" images/WhatsApp.webp" width="40" height="39" alt="whats">
                                 </div>
@@ -187,6 +260,11 @@
     <!-- custom js file link  -->
     <script src="script.js"></script>
     <script src="scriptOne.js"></script>
+
+    <script src="calcCartPrice.js"></script>
+    <script src="toggleCartStatus.js"></script>
+    <script src="counter-02.js"></script>
+    <script src="cart-02.js"></script>
 
 </body>
 

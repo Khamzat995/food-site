@@ -2,25 +2,65 @@ for (let i of hot) {
 
   let box = document.createElement('div');
   box.classList.add('box');
+  box.setAttribute('data-id', i.id)
 
   let spanOne = document.createElement('span');
   spanOne.classList.add('price');
-  spanOne.innerText = "₺" + i.price;
+  spanOne.innerText = i.price + ' ₺';
   box.appendChild(spanOne);
 
+  let spanTwo = document.createElement('span');
+  spanTwo.classList.add('notes');
+  spanTwo.innerText = i.notes;
+  box.appendChild(spanTwo);
+
   let image = document.createElement('img');
+  image.classList.add('product-img')
   image.setAttribute('src', i.image);
   image.setAttribute("alt", "картинка");
   box.appendChild(image);
 
   let name = document.createElement('h3');
   name.innerText = i.name;
+  name.classList.add('item-title');
   box.appendChild(name);
 
-  let total = document.createElement('button');
-  total.classList.add("btn");
-  total.innerText = i.total;
-  box.appendChild(total);
+  let appCounter = document.createElement('div')
+  appCounter.classList.add("app_counter");
+
+  /* счетчик */
+  let divCounter = document.createElement('div')
+  divCounter.classList.add('items');
+
+  let countMinus = document.createElement('div');
+  countMinus.classList.add('items__control');
+  countMinus.setAttribute('data-action', 'minus');
+  countMinus.textContent = '-';
+  divCounter.appendChild(countMinus);
+
+  let countCurrent = document.createElement('div');
+  countCurrent.classList.add('items__current');
+  countCurrent.setAttribute('data-counter', '');
+  countCurrent.textContent = 1;
+  divCounter.appendChild(countCurrent);
+
+  let countPlus = document.createElement('div');
+  countPlus.classList.add('items__control');
+  countPlus.setAttribute('data-action', 'plus');
+  countPlus.textContent = '+';
+  divCounter.appendChild(countPlus);
+
+  appCounter.appendChild(divCounter)
+
+  /* счетчик */
+
+  let buttonZakaz = document.createElement('button');
+  buttonZakaz.classList.add("btn");
+  buttonZakaz.setAttribute('data-cart', '');
+  buttonZakaz.innerText = 'в корзину';
+
+  appCounter.appendChild(buttonZakaz)
+  box.appendChild(appCounter);
 
   document.getElementById("productContainerOne").appendChild(box)
 }
@@ -29,25 +69,65 @@ for (let i of ice) {
 
   let box = document.createElement('div');
   box.classList.add('box');
+  box.setAttribute('data-id', i.id)
 
   let spanOne = document.createElement('span');
   spanOne.classList.add('price');
-  spanOne.innerText = "₺" + i.price;
+  spanOne.innerText = i.price + ' ₺';
   box.appendChild(spanOne);
 
+  let spanTwo = document.createElement('span');
+  spanTwo.classList.add('notes');
+  spanTwo.innerText = i.notes;
+  box.appendChild(spanTwo);
+
   let image = document.createElement('img');
+  image.classList.add('product-img')
   image.setAttribute('src', i.image);
   image.setAttribute("alt", "картинка");
   box.appendChild(image);
 
   let name = document.createElement('h3');
   name.innerText = i.name;
+  name.classList.add('item-title');
   box.appendChild(name);
 
-  let total = document.createElement('button');
-  total.classList.add("btn");
-  total.innerText = i.total;
-  box.appendChild(total);
+  let appCounter = document.createElement('div')
+  appCounter.classList.add("app_counter");
+
+  /* счетчик */
+  let divCounter = document.createElement('div')
+  divCounter.classList.add('items');
+
+  let countMinus = document.createElement('div');
+  countMinus.classList.add('items__control');
+  countMinus.setAttribute('data-action', 'minus');
+  countMinus.textContent = '-';
+  divCounter.appendChild(countMinus);
+
+  let countCurrent = document.createElement('div');
+  countCurrent.classList.add('items__current');
+  countCurrent.setAttribute('data-counter', '');
+  countCurrent.textContent = 1;
+  divCounter.appendChild(countCurrent);
+
+  let countPlus = document.createElement('div');
+  countPlus.classList.add('items__control');
+  countPlus.setAttribute('data-action', 'plus');
+  countPlus.textContent = '+';
+  divCounter.appendChild(countPlus);
+
+  appCounter.appendChild(divCounter)
+
+  /* счетчик */
+
+  let buttonZakaz = document.createElement('button');
+  buttonZakaz.classList.add("btn");
+  buttonZakaz.setAttribute('data-cart', '');
+  buttonZakaz.innerText = 'в корзину';
+
+  appCounter.appendChild(buttonZakaz)
+  box.appendChild(appCounter);
 
   document.getElementById("productContainerTwo").appendChild(box)
 }
