@@ -35,6 +35,7 @@ for (let i of hot) {
   let countMinus = document.createElement('div');
   countMinus.classList.add('items__control');
   countMinus.setAttribute('data-action', 'minus');
+  countMinus.setAttribute('onclick', '');
   countMinus.textContent = '-';
   divCounter.appendChild(countMinus);
 
@@ -47,6 +48,7 @@ for (let i of hot) {
   let countPlus = document.createElement('div');
   countPlus.classList.add('items__control');
   countPlus.setAttribute('data-action', 'plus');
+  countPlus.setAttribute('onclick', '');
   countPlus.textContent = '+';
   divCounter.appendChild(countPlus);
 
@@ -102,6 +104,7 @@ for (let i of ice) {
   let countMinus = document.createElement('div');
   countMinus.classList.add('items__control');
   countMinus.setAttribute('data-action', 'minus');
+  countMinus.setAttribute('onclick', '');
   countMinus.textContent = '-';
   divCounter.appendChild(countMinus);
 
@@ -114,6 +117,7 @@ for (let i of ice) {
   let countPlus = document.createElement('div');
   countPlus.classList.add('items__control');
   countPlus.setAttribute('data-action', 'plus');
+  countPlus.setAttribute('onclick', '');
   countPlus.textContent = '+';
   divCounter.appendChild(countPlus);
 
