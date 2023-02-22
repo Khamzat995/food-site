@@ -45,9 +45,9 @@ window.addEventListener('click', function (event) {
 										<div class="cart-item__details">
 
 											<div class="items items--small counter-wrapper">
-												<div class="items__control" data-action="minus">-</div>
+												<div class="items__control" data-action="minus" onclick="">-</div>
 												<div class="items__current" data-counter="">${productInfo.counter}</div>
-												<div class="items__control" data-action="plus">+</div>
+												<div class="items__control" data-action="plus" onclick="">+</div>
 											</div>
 
 											<div class="price">
