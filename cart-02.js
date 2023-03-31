@@ -17,6 +17,7 @@ window.addEventListener('click', function (event) {
 			/* itemsInBox: card.querySelector('[data-items-in-box]').innerText, */
 			/* weight: card.querySelector('.price__weight').innerText, */
 			price: card.querySelector('.price').innerText,
+			notes: card.querySelector('.notes').innerText,
 			counter: card.querySelector('[data-counter]').innerText,
 		};
 
@@ -51,7 +52,8 @@ window.addEventListener('click', function (event) {
 											</div>
 
 											<div class="price">
-												<div class="price__currency">${productInfo.price}</div>
+																	<div class="price__currency">${productInfo.price}</div>
+												<span class="cart-price-span">${productInfo.notes}</span>
 											</div>
 
 										</div>
@@ -63,8 +65,6 @@ window.addEventListener('click', function (event) {
 
 			// Отобразим товар в корзине
 			cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
-
-
 		}
 
 		// Сбрасываем счетчик добавленного товара на "1"

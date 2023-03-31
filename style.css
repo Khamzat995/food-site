@@ -109,7 +109,6 @@ section {
   z-index: 0;
   margin-top: 1rem;
   margin-left: 20px;
-
 }
 
 .btn-kurs::before {
@@ -122,7 +121,6 @@ section {
   background: var(--red);
   transition: .3s linear;
   z-index: -1;
-
 }
 
 .btn-kurs:hover::before {
@@ -666,19 +664,8 @@ header .navbar a:hover {
 }
 
 .items {
-  /* font-family: 'Merriweather', serif; */
-  /* background: #f2ede7; */
-  /* border-radius: 8px; */
-  /*  width: 100px; */
   display: flex;
-  /* font-size: 18px;
-  height: auto;
-  overflow: hidden; */
   height: 42.4px;
-
-
-  /* display: inline-block; */
-  /* padding: 0.8rem 3rem; */
   border: 0.2rem solid var(--red);
   color: var(--red);
   cursor: pointer;
@@ -688,8 +675,6 @@ header .navbar a:hover {
   overflow: hidden;
   z-index: 0;
   margin-top: 1rem;
-
-
 }
 
 .items__control {
@@ -702,7 +687,6 @@ header .navbar a:hover {
 
 .items__control:hover {
   background: #ffa500;
-  /*  background: #eb5a1e; */
   color: #FFF;
 }
 
@@ -713,9 +697,6 @@ header .navbar a:hover {
 }
 
 .card-body {
-  /* -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem; */
   padding: 2rem;
   background: #fff;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
@@ -725,12 +706,11 @@ header .navbar a:hover {
   flex: 1 1 30rem;
   position: relative;
   max-width: 400px;
-
 }
 
 .cart-item__top {
   display: flex;
-
+  justify-content: space-around;
   align-items: flex-end;
   flex-wrap: wrap;
   padding-bottom: 15px;
@@ -745,7 +725,6 @@ header .navbar a:hover {
   width: 12px;
   height: 12px;
   color: white;
-  /* padding-bottom: 5px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -753,13 +732,11 @@ header .navbar a:hover {
   align-content: center;
 }
 
-
 .card-title {
   margin-bottom: 0.75rem;
   color: #333;
   font-size: 2.5rem;
   padding-top: 1rem;
-
 }
 
 .h55 {
@@ -777,7 +754,6 @@ header .navbar a:hover {
   font-size: 2.5rem;
   font-weight: bold;
 }
-
 
 .alert-secondary {
   color: #383d41;
@@ -842,12 +818,6 @@ form {
   margin-bottom: 1rem;
 }
 
-/* @media (prefers-reduced-motion: reduce) {
-  .form-control {
-    transition: none;
-  }
-} */
-
 .form-group .form-control {
   display: block;
   width: 100%;
@@ -872,7 +842,6 @@ form {
   color: #0EA107;
 }
 
-
 .none {
   display: none;
 }
@@ -880,7 +849,6 @@ form {
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
-
   }
 }
 
@@ -937,15 +905,16 @@ form {
   margin-left: 15px;
 }
 
+.cart-price-span {
+  font-size: 14px;
+  color: #6c757d;
+  margin-left: 10px;
+}
 
 .order-btn {
   display: flex;
   align-items: center
 }
-
-
-
-
 
 .steps {
   display: flex;
@@ -1203,7 +1172,6 @@ form {
 .pulse {
   position: absolute;
   border-radius: 50%;
-
 }
 
 .pulse:before,
@@ -1246,6 +1214,88 @@ form {
 .pulse-1 {
   margin-left: 50%;
 }
+
+/* MODAL */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-section {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* media queries  */
 
