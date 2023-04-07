@@ -1,14 +1,14 @@
 let hot = [
     {
         id: 1,
-        price: "150",
+        price: "170",
         image: "images/kotam_gal.webp",
         name: "Галушки с курицей",
         notes: "1 порция"
     },
     {
         id: 2,
-        price: "150",
+        price: "160",
         image: "images/manty.webp",
         name: "Манты",
         notes: "1 порция"
@@ -56,28 +56,28 @@ let hot = [
         notes: "10 шт."
     },
     {
-        price: "250",
+        price: "280",
         image: "images/photo5274085003740952552.webp",
         name: "Гуляш",
         notes: "1 порция"
     },
     {
         id: 9,
-        price: "150",
+        price: "160",
         image: "images/kurze.webp",
         name: "Курзе",
         notes: "1 порция"
     },
     {
         id: 10,
-        price: "150",
+        price: "160",
         image: "images/plov_myso.webp",
         name: "Плов",
         notes: "1 порция"
     },
     {
         id: 11,
-        price: "100",
+        price: "120",
         image: "images/a_borsh.webp",
         name: "Борщ красный",
         notes: "1 порция"
@@ -91,14 +91,14 @@ let hot = [
     },
     {
         id: 13,
-        price: "350",
+        price: "370",
         image: "images/a_peshen.webp",
         name: "Печеночный торт",
         notes: "1 шт."
     },
     {
         id: 14,
-        price: "250",
+        price: "320",
         image: "images/a_pechen_rulet.webp",
         name: "Печеночный рулет",
         notes: "1 шт."
@@ -112,21 +112,21 @@ let hot = [
     },
     {
         id: 16,
-        price: "50",
+        price: "60",
         image: "images/trifles.webp",
         name: "Трайфлы",
         notes: "1 шт."
     },
     {
         id: 17,
-        price: "50",
+        price: "60",
         image: "images/trifles_1.webp",
         name: "Трайфлы",
         notes: "1 шт."
     },
     {
         id: 18,
-        price: "100",
+        price: "120",
         image: "images/trifles_2.webp",
         name: "Трайфлы",
         notes: "1 шт."
@@ -136,21 +136,21 @@ let hot = [
 let ice = [
     {
         id: 19,
-        price: "50",
+        price: "60",
         image: "images/photo5274085003740952487.webp",
         name: "Пшеничные галушки",
         notes: "1 кг."
     },
     {
         id: 20,
-        price: "220",
+        price: "250",
         image: "images/photomanty.webp",
         name: "Манты",
         notes: "1 кг."
     },
     {
         id: 21,
-        price: "150",
+        price: "180",
         image: "images/pelmen_form.webp",
         name: "Пельмени на формочке",
         notes: "1 кг."
@@ -158,77 +158,77 @@ let ice = [
     {
         id: 22,
         id: 4,
-        price: "200",
+        price: "210",
         image: "images/photo5274085003740952495.webp",
         name: "Пельмени ручные",
         notes: "1 кг."
     },
     {
         id: 23,
-        price: "220",
+        price: "250",
         image: "images/kurze_2.webp",
         name: "Курзе",
         notes: "1 кг."
     },
     {
         id: 24,
-        price: "120",
+        price: "150",
         image: "images/vareniki_moroz.webp",
         name: "Вареники",
         notes: "1 кг."
     },
     {
         id: 25,
-        price: "350",
+        price: "400",
         image: "images/photo5274085003740952490.webp",
         name: "Голубцы с капустой",
         notes: "1 кг."
     },
     {
         id: 26,
-        price: "350",
+        price: "400",
         image: "images/photo5274085003740952493.webp",
         name: "Перчики фаршированные",
         notes: "1 кг."
     },
     {
         id: 27,
-        price: "350",
+        price: "400",
         image: "images/kotleti-4.webp",
         name: "Котлеты (говядина)",
         notes: "1 кг."
     },
     {
         id: 28,
-        price: "250",
+        price: "280",
         image: "images/a_kura.webp",
         name: "Котлеты (курица)",
         notes: "1 кг."
     },
     {
         id: 29,
-        price: "350",
+        price: "400",
         image: "images/photo5451806313748216331.webp",
         name: "Тефтели",
         notes: "1 кг."
     },
     {
         id: 30,
-        price: "150",
+        price: "200",
         image: "images/photo5451806313748216332.webp",
         name: "Фаршированый рулет",
         notes: "1 шт."
     },
     {
         id: 31,
-        price: "390",
+        price: "500",
         image: "images/photo5451806313748216340.webp",
         name: "Мясной рулет",
         notes: "1 кг."
     },
     {
         id: 32,
-        price: "450",
+        price: "500",
         image: "images/photo5451806313748216329.webp",
         name: "Баараш",
         notes: "1 кг."

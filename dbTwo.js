@@ -6,8 +6,7 @@ let bluda_1 = [
         subTitle: " - жми на картинку",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Красный борщ",
-        description: "Состав: говядина или баранина, картофель, лук, морковь, свекла, капуста, чеснок, томат, уксус, соль, перец и растительное масло",
-        imageThree: " "
+        description: "Состав: говядина или баранина, картофель, лук, морковь, свекла, капуста, чеснок, томат, уксус, соль, перец и растительное масло"
     },
     {
         imageOne: "images/sup_kurin.webp",
@@ -15,8 +14,7 @@ let bluda_1 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Суп с курицей",
-        description: "Состав: курица, морковь, картофель, лук, лавровый лист, соль, перец, зелень, яйцо, масло растительное",
-        imageThree: " "
+        description: "Состав: курица, морковь, картофель, лук, лавровый лист, соль, перец, зелень, яйцо, масло растительное"
     },
     {
         imageOne: "images/chorpa.webp",
@@ -24,8 +22,7 @@ let bluda_1 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Нохчийн чорпа",
-        description: "Состав: говядина или баранина, картошка, лук, чеснок, зелень, соль и специи по вкусу",
-        imageThree: " "
+        description: "Состав: говядина или баранина, картошка, лук, чеснок, зелень, соль и специи по вкусу"
     }
 ]
 
@@ -36,8 +33,7 @@ let bluda_2 = [
         subTitle: " - жми на картинку ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Вареники ",
-        description: "Состав: мука, яйца, соль, картофель или творог, лук, соль, перец молотый, масло растительное, сметана ",
-        imageThree: " "
+        description: "Состав: мука, яйца, соль, картофель или творог, лук, соль, перец молотый, масло растительное, сметана "
     },
     {
         imageOne: "images/3-55.webp ",
@@ -45,8 +41,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Галушки ",
-        description: "Состав: мука, яйца, соль и немного воды. Всё просто )))",
-        imageThree: "images/smail_22.png "
+        description: "Состав: мука, яйца, соль и немного воды. Всё просто )))"
     },
     {
         imageOne: "images/960m.webp ",
@@ -54,8 +49,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Котлеты ",
-        description: "Состав: фарш, лук, чеснок, яйца, хлеб или панировочные сухари, соль, перец черный молотый испеции по вкусу ",
-        imageThree: " "
+        description: "Состав: фарш, лук, чеснок, яйца, хлеб или панировочные сухари, соль, перец черный молотый испеции по вкусу "
     },
     {
         imageOne: "images/kurze.webp ",
@@ -63,8 +57,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Курзе ",
-        description: "Состав: говядина, мука, яйцо, сливочное масло, лук, чеснок, зелень (кинза, петрушка, укроп и т.п.), соль ",
-        imageThree: " "
+        description: "Состав: говядина, мука, яйцо, сливочное масло, лук, чеснок, зелень (кинза, петрушка, укроп и т.п.), соль "
     },
     {
         imageOne: "images/koleta_kura.webp ",
@@ -72,8 +65,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Куриные котлеты ",
-        description: "Состав: куриная грудка (филе), лук, яйцо, масло подсолнечное, соль, перец, специи по вкусу ",
-        imageThree: " "
+        description: "Состав: куриная грудка (филе), лук, яйцо, масло подсолнечное, соль, перец, специи по вкусу "
     },
     {
         imageOne: "images/kurinoe-file-s-gribami-v-souse.webp ",
@@ -81,8 +73,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Курица с грибами в сливочном соусе ",
-        description: "Состав: куриное филе, шампиньоны, твёрдый сыр, лук, сливки, соль, перец, специи по вкусу ",
-        imageThree: " "
+        description: "Состав: куриное филе, шампиньоны, твёрдый сыр, лук, сливки, соль, перец, специи по вкусу "
     },
     {
         imageOne: "images/manty.webp ",
@@ -90,8 +81,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Манты ",
-        description: "Состав: мука, мясо, яйца, лук, соль, перец, специи по вкусу",
-        imageThree: "images/smail_22.png "
+        description: "Состав: мука, мясо, яйца, лук, соль, перец, специи по вкусу"
     },
     {
         imageOne: "images/fonstola.webp ",
@@ -99,8 +89,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Мясной рулет ",
-        description: "Состав: мясо, грибы, сыр твёрдый, лук, чеснок, зелень, соль, перец, масло растительное",
-        imageThree: " "
+        description: "Состав: мясо, грибы, сыр твёрдый, лук, чеснок, зелень, соль, перец, масло растительное"
     },
     {
         imageOne: "images/pelmen.webp ",
@@ -108,8 +97,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Пельмени ",
-        description: "Состав: мука, фарш, яйца, масло растительное, лук, соль, перец чёрный молотый",
-        imageThree: "images/smail_11.png "
+        description: "Состав: мука, фарш, яйца, масло растительное, лук, соль, перец чёрный молотый"
     },
     {
         imageOne: "images/perchiki.webp ",
@@ -117,8 +105,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Перцы фаршированные ",
-        description: "Состав: перец болгарский, рис, фарш, морковь, лук, соль, специи, томат, сметана, масло растительное ",
-        imageThree: " "
+        description: "Состав: перец болгарский, рис, фарш, морковь, лук, соль, специи, томат, сметана, масло растительное "
     },
     {
         imageOne: "images/plov_myso.webp ",
@@ -126,8 +113,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Плов мясной ",
-        description: "остав: мясо, рис, морковь, лук, чеснок, перец острый, соль, масло растительное",
-        imageThree: "images/smail_22.png "
+        description: "остав: мясо, рис, морковь, лук, чеснок, перец острый, соль, масло растительное"
     },
     {
         imageOne: "images/riba.webp ",
@@ -135,8 +121,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Рыба c гарниром ",
-        description: "Состав: рыба, картофель, помидоры, перец болгарский, лук, морковь, сметана, соль и специи",
-        imageThree: " "
+        description: "Состав: рыба, картофель, помидоры, перец болгарский, лук, морковь, сметана, соль и специи"
     },
     {
         imageOne: "images/teftelyam.webp ",
@@ -144,8 +129,7 @@ let bluda_2 = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Тефтели ",
-        description: "Состав: фарш, морковь, лук, рис, яйца, томат, сметана, масло растительное, перец, соль и специи ",
-        imageThree: " "
+        description: "Состав: фарш, морковь, лук, рис, яйца, томат, сметана, масло растительное, перец, соль и специи "
     }
 ]
 
@@ -156,8 +140,7 @@ let salates = [
         subTitle: " - жми на картинку ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Крабовый салат ",
-        description: "Состав: крабовые палочки, кукуруза консервированная, рис, яйца, соль, майонез, зелень",
-        imageThree: " "
+        description: "Состав: крабовые палочки, кукуруза консервированная, рис, яйца, соль, майонез, зелень"
     },
     {
         imageOne: "images/salat_1.webp ",
@@ -165,8 +148,7 @@ let salates = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Овощной салат ",
-        description: " помидоры, огурцы, перец сладкий, листья салата, кинза, петрушка, зелёный лук, масло растительное, лимон, соус соевый, перец, соль",
-        imageThree: " "
+        description: " помидоры, огурцы, перец сладкий, листья салата, кинза, петрушка, зелёный лук, масло растительное, лимон, соус соевый, перец, соль"
     },
     {
         imageOne: "images/olive.webp ",
@@ -174,8 +156,7 @@ let salates = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Салат Оливье ",
-        description: "Состав: картофель и морковь отварные, яйца, огурцы солёные, колбаса вареная, майонез, горошек зелёный, лук зелёный, соль, перец",
-        imageThree: " "
+        description: "Состав: картофель и морковь отварные, яйца, огурцы солёные, колбаса вареная, майонез, горошек зелёный, лук зелёный, соль, перец"
     },
     {
         imageOne: "images/poke.webp ",
@@ -183,8 +164,7 @@ let salates = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Салат Поке ",
-        description: "Состав: лосось, рис, огурец, лайм, авокадо, томаты черри, манго, лук зеленый, перец чили, имбирь маринованный, чукка, нори, кунжут, соевый соус, кунжутное масло",
-        imageThree: " "
+        description: "Состав: лосось, рис, огурец, лайм, авокадо, томаты черри, манго, лук зеленый, перец чили, имбирь маринованный, чукка, нори, кунжут, соевый соус, кунжутное масло"
     }
 ]
 
@@ -195,8 +175,7 @@ let vipechka = [
         subTitle: " - жми на картинку ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Хингалш ",
-        description: "Состав: пшеничная мука, тыква, кефир, сода, сливочное масло и соль",
-        imageThree: "images/smail_11.png "
+        description: "Состав: пшеничная мука, тыква, кефир, сода, сливочное масло и соль"
     },
     {
         imageOne: "images/chepalg.webp ",
@@ -204,8 +183,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Чепалгаш ",
-        description: "Состав: пшеничная мука, домашний творог, яйцо, зелёный лук, сливочное масло и соль",
-        imageThree: "images/smail_22.png "
+        description: "Состав: пшеничная мука, домашний творог, яйцо, зелёный лук, сливочное масло и соль"
     },
     {
         imageOne: "images/pirojki.webp ",
@@ -213,8 +191,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Пирожки жаренные ",
-        description: "Состав: мука, (картофель, фарш, капуста на усмотрение) дрожжи, масло растительное, лук репчатый, перец чёрный молотый, масло растительное, сахар, соль",
-        imageThree: " "
+        description: "Состав: мука, (картофель, фарш, капуста на усмотрение) дрожжи, масло растительное, лук репчатый, перец чёрный молотый, масло растительное, сахар, соль"
     },
     {
         imageOne: "images/cheburek.webp ",
@@ -222,8 +199,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Чебуреки ",
-        description: "Состав:  мука, фарш говяжий, зелень, специи, соль, масло растительное",
-        imageThree: "images/smail_33.png "
+        description: "Состав:  мука, фарш говяжий, зелень, специи, соль, масло растительное"
     },
     {
         imageOne: "images/shaurma.webp",
@@ -231,8 +207,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Шаурма с курицей ",
-        description: "Состав: лаваш, куриное филе, капуста белокочанная, огурцы консервированные, помидоры, кетчуп, майонез, соль, перец чёрный молотый, масло растительное",
-        imageThree: " "
+        description: "Состав: лаваш, куриное филе, капуста белокочанная, огурцы консервированные, помидоры, кетчуп, майонез, соль, перец чёрный молотый, масло растительное"
     },
     {
         imageOne: "images/ponchiki.webp",
@@ -240,8 +215,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Пончики с шоколадом",
-        description: "Состав: мука, сахар, яйца, дрожжи сухие, масло сливочное, молоко, соль, ваниль, шоколад, сливки, посыпка",
-        imageThree: " "
+        description: "Состав: мука, сахар, яйца, дрожжи сухие, масло сливочное, молоко, соль, ваниль, шоколад, сливки, посыпка"
     },
     {
         imageOne: "images/sirniki.webp",
@@ -249,8 +223,7 @@ let vipechka = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Cырники из творога",
-        description: "Состав: творог, яйца, сахар, ванилин, сахар ванильный, соль, масло растительное, мука, пудра сахарная, сметана",
-        imageThree: " "
+        description: "Состав: творог, яйца, сахар, ванилин, сахар ванильный, соль, масло растительное, мука, пудра сахарная, сметана"
     }
 ]
 
@@ -261,8 +234,7 @@ let sladosti = [
         subTitle: " - жми на картинку ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Сладкий плов",
-        description: "Состав: рис отварной, курага, изюм, масло сливочное, соль",
-        imageThree: "images/smail_11.png "
+        description: "Состав: рис отварной, курага, изюм, масло сливочное, соль"
     },
     {
         imageOne: "images/hovla.webp",
@@ -270,8 +242,7 @@ let sladosti = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Чак-чак",
-        description: "Состав: мука, яйца, масло топлёное, сахар, соль, масло растительное, мёд",
-        imageThree: "images/smail_22.png "
+        description: "Состав: мука, яйца, масло топлёное, сахар, соль, масло растительное, мёд"
     },
     {
         imageOne: "images/chokolbas.webp",
@@ -279,8 +250,7 @@ let sladosti = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Шоколадная колбаса с орехами",
-        description: "Состав: печенье, какао-порошок, сахар, масло сливочное, орех грецкий, молоко",
-        imageThree: " "
+        description: "Состав: печенье, какао-порошок, сахар, масло сливочное, орех грецкий, молоко"
     },
     {
         imageOne: "images/trifles.webp",
@@ -288,7 +258,6 @@ let sladosti = [
         subTitle: " ",
         imageTwo: "images/icon-plate.webp",
         titleTwo: "Трайфлы",
-        description: "Состав: бананы, сахар ванильный, сгущённое молоко, сироп лимонный, творог, шоколад чёрный горький, клубника и др.",
-        imageThree: " "
+        description: "Состав: бананы, сахар ванильный, сгущённое молоко, сироп лимонный, творог, шоколад чёрный горький, клубника и др."
     }
 ]

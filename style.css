@@ -52,6 +52,16 @@ section {
   color: #666;
 }
 
+.thank {
+  font-size: 3.4rem;
+  width: max-content;
+  font-weight: bold;
+}
+
+.thank span {
+  color: var(--red);
+}
+
 .heading-one span {
   color: var(--red);
 }
@@ -690,10 +700,23 @@ header .navbar a:hover {
   color: #FFF;
 }
 
+.knopki {
+  display: none;
+}
+
 .items__current {
   width: 30px;
   padding-top: 8%;
+}
 
+.cart-current {
+  color: #000;
+  font-size: large;
+}
+
+.counter-wrapper {
+  display: flex;
+  align-items: baseline;
 }
 
 .card-body {
@@ -711,11 +734,16 @@ header .navbar a:hover {
 .cart-item__top {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   padding-bottom: 15px;
   border-bottom: 1px solid #dee2e6;
   margin-bottom: 15px;
+}
+
+.cart-item__top .korzina {
+  max-width: 20px;
+  margin-left: 20px;
 }
 
 .btn-close {
@@ -818,6 +846,12 @@ form {
   margin-bottom: 1rem;
 }
 
+.form-group input {
+  margin-bottom: 1.5rem;
+}
+
+/* CSS для индикации полей форме при их не валидности */
+
 .form-group .form-control {
   display: block;
   width: 100%;
@@ -852,30 +886,14 @@ form {
   }
 }
 
-.form-control {
-  display: block;
-  width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
 .cart-item__img img {
-  max-width: 100px;
-  height: auto;
+  width: 100px;
+  height: 80px;
 }
 
 .cart-item__desc {
   padding-top: 15px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   max-width: 208px;
 }
 
@@ -896,19 +914,19 @@ form {
 
 .cart-item__details {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .cart-item__details .price__currency {
   font-size: 18px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .cart-price-span {
   font-size: 14px;
   color: #6c757d;
-  margin-left: 10px;
 }
 
 .order-btn {
@@ -1252,7 +1270,6 @@ form {
   animation-duration: 0.4s
 }
 
-
 @-webkit-keyframes animatetop {
   from {
     top: -300px;
@@ -1295,7 +1312,6 @@ form {
   margin: 0;
   padding: 0;
 }
-
 
 /* media queries  */
 
@@ -1442,6 +1458,13 @@ form {
     font-size: 1.8rem;
     width: max-content;
   }
+
+  .thank {
+    font-size: 2.8rem;
+    width: max-content;
+    font-weight: bold;
+  }
+
 
   .order .row form .contact-one .social .sociales img {
     width: 20px;

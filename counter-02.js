@@ -1,8 +1,4 @@
-/* const btnClose = document.getElementById('btnClose') */
-// Добавляем прослушку на всем окне
 window.addEventListener('click', function (event) {
-	/* let counterCifra = document.getElementById('counter-cifra');
-	counterCifra.textContent = '0' */
 
 	// Объявляем переменную для счетчика
 	let counter;
@@ -13,8 +9,6 @@ window.addEventListener('click', function (event) {
 		const counterWrapper = event.target.closest('.items');
 		// Находим див с числом счетчика
 		counter = counterWrapper.querySelector('[data-counter]');
-
-
 	}
 
 	// Проверяем является ли элемент по которому был совершен клик кнопкой Плюс
@@ -29,7 +23,9 @@ window.addEventListener('click', function (event) {
 		if (parseInt(counter.innerText) > 1) {
 			// Изменяем текст в счетчике уменьшая его на 1
 			counter.innerText = --counter.innerText;
-		} else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
+		}
+
+		else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
 			// Проверка на товар который находится в корзине
 			/* console.log('IN CART!!!!'); */
 			// Удаляем товар из корзины
@@ -43,13 +39,19 @@ window.addEventListener('click', function (event) {
 			calcCartPriceAndDelivery();
 		}
 
-		/* btnClose.addEventListener("click", (e) => {
-			event.target.closest('.cart-item').remove();
-		}) */
-		/* counterCifra.textContent = counter.length */
-
 	}
 
+	if (event.target.closest('.btn-delete')) {
+		// Удаляем товар из корзины
+
+		event.target.closest('.cart-item').remove();
+
+		// Отображение статуса корзины Пустая / Полная
+		toggleCartStatus();
+
+		// Пересчет общей стоимости товаров в корзине
+		calcCartPriceAndDelivery();
+	}
 
 	// Проверяем клик на + или - внутри коризины
 	if (event.target.hasAttribute('data-action') && event.target.closest('.cart-wrapper')) {

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+
+  <title>Страница спасибо </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #row-thank {
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .contact-one {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    .btn {
+      color: white;
+      border-color: white;
+    }
+
+    @keyframes glowing {
+      0% {
+        background-color: #ffa500;
+        box-shadow: 0 0 5px #ffa500;
+      }
+
+      50% {
+        background-color: #f5bd56;
+        box-shadow: 0 0 10px #f5bd56;
+      }
+
+      100% {
+        background-color: #ffa500;
+        box-shadow: 0 0 5px #ffa500;
+      }
+    }
+
+    .btn {
+      animation: glowing 1300ms infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="order">
+    <div id="row-thank" class="row">
+      <div class="image">
+        <video src="images/Kid.mp4" autoplay loop muted playsinline></video>
+      </div>
+      <div class="contact-one">
+        <h1 class="thank"><span> Спасибо за заказ </span></h1>
+        <h4> Мы свяжемся с Вами в течение 5-10 минут</h4>
+        <a href="index.html" class="btn">ОК</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

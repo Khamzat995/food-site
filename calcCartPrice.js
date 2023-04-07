@@ -38,4 +38,6 @@ function calcCartPriceAndDelivery() {
 		deliveryCost.classList.remove('free');
 		deliveryCost.innerText = 'при заказе от 2000₺ бесплатно';
 	}
+
+
 }
