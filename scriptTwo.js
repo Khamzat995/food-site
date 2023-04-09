@@ -1,4 +1,4 @@
-for (let i of bluda_1) {
+for (let i of pervoe) {
 
   let box = document.createElement('div')
   box.classList.add('box')
@@ -36,7 +36,7 @@ for (let i of bluda_1) {
   description.innerText = i.description;
   content.appendChild(description);
 
-  let imageThree = document.createElement('span');
+  /* let imageThree = document.createElement('span');
   imageThree.classList.add('qave');
 
   let imgSpan = document.createElement('img');
@@ -44,14 +44,14 @@ for (let i of bluda_1) {
   imgSpan.setAttribute("alt", "картника");
   imageThree.appendChild(imgSpan);
 
-  content.appendChild(imageThree);
+  content.appendChild(imageThree); */
 
   box.appendChild(content);
 
   document.getElementById("boxOne").appendChild(box)
 }
 
-for (let i of bluda_2) {
+for (let i of vtoroe) {
   let box = document.createElement('div');
   box.classList.add('box');
 
@@ -88,7 +88,7 @@ for (let i of bluda_2) {
   description.innerText = i.description;
   content.appendChild(description);
 
-  let imageThree = document.createElement('span');
+  /* let imageThree = document.createElement('span');
   imageThree.classList.add('qave');
 
   let imgSpan = document.createElement('img');
@@ -96,7 +96,7 @@ for (let i of bluda_2) {
   imgSpan.setAttribute("alt", "картинка");
   imageThree.appendChild(imgSpan);
 
-  content.appendChild(imageThree);
+  content.appendChild(imageThree); */
 
   box.appendChild(content);
 
@@ -140,15 +140,15 @@ for (let i of salates) {
   description.innerText = i.description;
   content.appendChild(description);
 
-  let imageThree = document.createElement('span');
-  imageThree.classList.add('qave');
-
-  let imgSpan = document.createElement('img');
-  imgSpan.setAttribute("src", i.imageThree);
-  imgSpan.setAttribute("alt", "картинка");
-  imageThree.appendChild(imgSpan);
-
-  content.appendChild(imageThree);
+  /*  let imageThree = document.createElement('span');
+   imageThree.classList.add('qave');
+ 
+   let imgSpan = document.createElement('img');
+   imgSpan.setAttribute("src", i.imageThree);
+   imgSpan.setAttribute("alt", "картинка");
+   imageThree.appendChild(imgSpan);
+ 
+   content.appendChild(imageThree); */
 
   box.appendChild(content);
 
@@ -192,7 +192,7 @@ for (let i of vipechka) {
   description.innerText = i.description;
   content.appendChild(description);
 
-  let imageThree = document.createElement('span');
+  /* let imageThree = document.createElement('span');
   imageThree.classList.add('qave');
 
   let imgSpan = document.createElement('img');
@@ -200,7 +200,7 @@ for (let i of vipechka) {
   imgSpan.setAttribute('alt', 'картинка')
   imageThree.appendChild(imgSpan);
 
-  content.appendChild(imageThree);
+  content.appendChild(imageThree); */
 
   box.appendChild(content);
 
@@ -244,15 +244,15 @@ for (let i of sladosti) {
   description.innerText = i.description;
   content.appendChild(description);
 
-  let imageThree = document.createElement('span');
-  imageThree.classList.add('qave');
-
-  let imgSpan = document.createElement('img');
-  imgSpan.setAttribute("src", i.imageThree);
-  imgSpan.setAttribute("alt", "картинка");
-  imageThree.appendChild(imgSpan);
-
-  content.appendChild(imageThree);
+  /*  let imageThree = document.createElement('span');
+   imageThree.classList.add('qave');
+ 
+   let imgSpan = document.createElement('img');
+   imgSpan.setAttribute("src", i.imageThree);
+   imgSpan.setAttribute("alt", "картинка");
+   imageThree.appendChild(imgSpan);
+ 
+   content.appendChild(imageThree); */
 
   box.appendChild(content);
 

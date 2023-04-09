@@ -687,7 +687,22 @@ header .navbar a:hover {
   margin-top: 1rem;
 }
 
+.items--small {
+  background: #f2ede7;
+  border-radius: 8px;
+  display: flex;
+  font-size: 18px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.items--small .items__control {
+  padding-top: 3%;
+}
+
+
 .items__control {
+  font-weight: bold;
   width: 30px;
   cursor: pointer;
   transition: 0.2s ease-in;
@@ -700,13 +715,13 @@ header .navbar a:hover {
   color: #FFF;
 }
 
-.knopki {
+/* .knopki {
   display: none;
-}
+} */
 
 .items__current {
+  font-weight: bold;
   width: 30px;
-  padding-top: 8%;
 }
 
 .cart-current {
@@ -774,7 +789,7 @@ header .navbar a:hover {
 }
 
 .delivery-cost {
-  font-size: 1.6rem;
+  font-size: large;
 }
 
 .h5 {
@@ -892,14 +907,15 @@ form {
 }
 
 .cart-item__desc {
-  padding-top: 15px;
-  /* padding-left: 15px; */
-  max-width: 208px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cart-item__title {
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 5px;
@@ -912,6 +928,12 @@ form {
   margin-bottom: 15px;
 }
 
+.cart-span-titile {
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+}
+
 .cart-item__details {
   display: flex;
   align-items: baseline;
@@ -922,6 +944,7 @@ form {
 .cart-item__details .price__currency {
   font-size: 18px;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .cart-price-span {

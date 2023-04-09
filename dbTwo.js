@@ -1,5 +1,5 @@
 
-let bluda_1 = [
+let pervoe = [
     {
         imageOne: "images/borsh.webp",
         titleOne: "Борщ",
@@ -26,7 +26,7 @@ let bluda_1 = [
     }
 ]
 
-let bluda_2 = [
+let vtoroe = [
     {
         imageOne: "images/vareniki.webp ",
         titleOne: "Вареники ",

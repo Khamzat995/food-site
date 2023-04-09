@@ -29,8 +29,8 @@ for (let i of hot) {
   appCounter.classList.add("app_counter");
 
   /* счетчик */
-  let divCounter = document.createElement('div')
-  divCounter.classList.add('items');
+  let divCounter = document.createElement('div');
+  divCounter.className = 'items counter-wrapper';
 
   let countMinus = document.createElement('div');
   countMinus.classList.add('items__control');
@@ -98,8 +98,8 @@ for (let i of ice) {
   appCounter.classList.add("app_counter");
 
   /* счетчик */
-  let divCounter = document.createElement('div')
-  divCounter.classList.add('items');
+  let divCounter = document.createElement('div');
+  divCounter.className = 'items counter-wrapper';
 
   let countMinus = document.createElement('div');
   countMinus.classList.add('items__control');

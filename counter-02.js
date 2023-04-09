@@ -1,3 +1,4 @@
+// Добавляем прослушку на всем окне
 window.addEventListener('click', function (event) {
 
 	// Объявляем переменную для счетчика
@@ -6,7 +7,7 @@ window.addEventListener('click', function (event) {
 	// Проверяем клик строго по кнопкам Плюс либо Минус
 	if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
 		// Находим обертку счетчика
-		const counterWrapper = event.target.closest('.items');
+		const counterWrapper = event.target.closest('.counter-wrapper');
 		// Находим див с числом счетчика
 		counter = counterWrapper.querySelector('[data-counter]');
 	}
@@ -27,9 +28,8 @@ window.addEventListener('click', function (event) {
 
 		else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
 			// Проверка на товар который находится в корзине
-			/* console.log('IN CART!!!!'); */
+			console.log('IN CART!!!!');
 			// Удаляем товар из корзины
-
 			event.target.closest('.cart-item').remove();
 
 			// Отображение статуса корзины Пустая / Полная
@@ -38,23 +38,21 @@ window.addEventListener('click', function (event) {
 			// Пересчет общей стоимости товаров в корзине
 			calcCartPriceAndDelivery();
 		}
-
 	}
 
-	if (event.target.closest('.btn-delete')) {
-		// Удаляем товар из корзины
+	// Проверяем клик на + или - внутри коризины
+	if (event.target.hasAttribute('data-action') && event.target.closest('.cart-wrapper')) {
+		// Пересчет общей стоимости товаров в корзине
+		calcCartPriceAndDelivery();
+	}
 
+	else if (event.target.closest('.btn-delete')) {
+		// Удаляем товар из корзины
 		event.target.closest('.cart-item').remove();
 
 		// Отображение статуса корзины Пустая / Полная
 		toggleCartStatus();
 
-		// Пересчет общей стоимости товаров в корзине
-		calcCartPriceAndDelivery();
-	}
-
-	// Проверяем клик на + или - внутри коризины
-	if (event.target.hasAttribute('data-action') && event.target.closest('.cart-wrapper')) {
 		// Пересчет общей стоимости товаров в корзине
 		calcCartPriceAndDelivery();
 	}

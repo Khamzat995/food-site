@@ -40,15 +40,17 @@ window.addEventListener('click', function (event) {
 									</div>
 									<div class="cart-item__desc">
 										<div class="cart-item__title">${productInfo.title}</div>
+										<div class="cart-span-titile"><span>количество</span><span>цена за 1 шт.</span></div>
 										  <div class="cart-item__details">
 											<div class="items--small counter-wrapper">
 												<div class="items__control knopki" data-action="minus" onclick="">-</div>
-												<span class="cart-price-span">Кол-во</span>
+											
 												<div class="items__current cart-current" data-counter="">${productInfo.counter}</div>
-												<span class="cart-price-span">по</span>
+												
 												<div class="items__control knopki" data-action="plus" onclick="">+</div>
 											</div>
-											<div class="price">
+											<div class="price"> 
+											
 												<div class="price__currency">${productInfo.price}</div>
 											</div>
 											<buttom class="btn-delete"><img class="korzina" src="images/korzina_musor.png"></buttom>
@@ -59,19 +61,7 @@ window.addEventListener('click', function (event) {
 
 			// Отобразим товар в корзине
 			cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
-
-
-			/* Сделать объект для письма */
-			let obj = {};
-
-			obj.title = productInfo.title;
-			obj.counter = productInfo.counter;
-			obj.price = productInfo.price;
-			productArray.push(obj);
 		}
-
-		console.log(productArray);
-
 		// Сбрасываем счетчик добавленного товара на "1"
 		card.querySelector('[data-counter]').innerText = '1';
 
@@ -80,7 +70,18 @@ window.addEventListener('click', function (event) {
 
 		// Пересчет общей стоимости товаров в корзине
 		calcCartPriceAndDelivery();
+
+		/* Сделать объект для письма */
+		let obj = {};
+
+		obj.title = productInfo.title;
+		obj.counter = productInfo.counter;
+		obj.price = productInfo.price;
+		productArray.push(obj);
 	}
+
+	console.log(productArray);
+
 });
 
 document.querySelector('.order').addEventListener('submit', (e) => {
@@ -120,10 +121,10 @@ let inputPhone = document.querySelector("[name='Телефон']");
 document.getElementById('zakaz').addEventListener('click', function () {
 
 	if (inputName.value === "") {
-				alert("Введите Ваше имя")
+		alert("Введите Ваше имя")
 	}
 	else if (inputPhone.value === "") {
-				alert("Введите Ваше имя и телефон")
+		alert("Введите Ваше имя и телефон")
 	}
 	else {
 		window.location.href = 'https://khamzat.site/xam/thank-you.html'

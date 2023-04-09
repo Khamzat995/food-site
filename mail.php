@@ -46,7 +46,7 @@ foreach ($myArray as $key => $value) {
             ";
         }
     }
-    $message = "<table style='width: 50%;'>$message . $prod</table>";
+    $message = "<table style='width: 50%;'>$message   $prod</table>";
       
 /* $email = $_POST['user_email']; */
 
