@@ -16,12 +16,14 @@ foreach ($myArray as $key => $value) {
 		$title = $value["title"];
 		$counter = $value["counter"];
 	    $price = $value["price"];
-	    $prod = "
-			<tr>
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$title</b></td>
-				<td style='padding: 10px; width: 110px; display: inline-block; border: #e9e9e9 1px solid;'>количество <b> $counter</b></td>
-				<td style='padding: 10px; width: 100px; display: inline-block; border: #e9e9e9 1px solid;'>по <b> $price</b></td>
+        
+	    $prod .= "
+	    <tr>
+				<td style='padding: 10px; width: auto; border: #e9e9e9 1px solid;'><b>$title</b></td>
+				<td style='padding: 10px; max-width: 100px; border: #e9e9e9 1px solid;'>колич-во <b> $counter</b></td>
+				<td style='padding: 10px; min-width: 80px; border: #e9e9e9 1px solid;'>по <b> $price</b></td>
 			</tr>
+	    
 			";
 	}
 
@@ -46,7 +48,7 @@ foreach ($myArray as $key => $value) {
             ";
         }
     }
-    $message = "<table style='width: 50%;'>$message   $prod</table>";
+    $message = "<table style='width: 50%;'>$message  $prod</table>";
       
 /* $email = $_POST['user_email']; */
 

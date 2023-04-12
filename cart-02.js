@@ -18,7 +18,6 @@ window.addEventListener('click', function (event) {
 			imgSrc: card.querySelector('.product-img').getAttribute('src'),
 			title: card.querySelector('.item-title').innerText,
 			price: card.querySelector('.price').innerText,
-			/* notes: card.querySelector('.notes').innerText, */
 			counter: card.querySelector('[data-counter]').innerText,
 		};
 
@@ -31,7 +30,6 @@ window.addEventListener('click', function (event) {
 			counterElement.innerText = parseInt(counterElement.innerText) + parseInt(productInfo.counter);
 		} else {
 			// Если товара нет в корзине
-
 			// Собранные данные подставим в шаблон для товара в корзине
 			const cartItemHTML = `<div class="cart-item" data-id="${productInfo.id}">
 								<div class="cart-item__top">
@@ -58,10 +56,19 @@ window.addEventListener('click', function (event) {
 									</div>
 								</div>
 							</div>`;
-
 			// Отобразим товар в корзине
 			cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
+
+			/* Сделать объект для письма */
+			let obj = {};
+			obj.title = productInfo.title;
+			obj.counter = productInfo.counter;
+			obj.price = productInfo.price;
+			productArray.push(obj);
 		}
+
+		console.log(productArray);
+
 		// Сбрасываем счетчик добавленного товара на "1"
 		card.querySelector('[data-counter]').innerText = '1';
 
@@ -70,18 +77,7 @@ window.addEventListener('click', function (event) {
 
 		// Пересчет общей стоимости товаров в корзине
 		calcCartPriceAndDelivery();
-
-		/* Сделать объект для письма */
-		let obj = {};
-
-		obj.title = productInfo.title;
-		obj.counter = productInfo.counter;
-		obj.price = productInfo.price;
-		productArray.push(obj);
 	}
-
-	console.log(productArray);
-
 });
 
 document.querySelector('.order').addEventListener('submit', (e) => {
@@ -109,14 +105,12 @@ document.querySelector('.order').addEventListener('submit', (e) => {
 	xhr.send(formData);
 
 	self.reset();
-
 });
 
 /* проверка валидации */
 
 let inputName = document.querySelector("[name='Имя']");
 let inputPhone = document.querySelector("[name='Телефон']");
-
 
 document.getElementById('zakaz').addEventListener('click', function () {
 
@@ -127,7 +121,7 @@ document.getElementById('zakaz').addEventListener('click', function () {
 		alert("Введите Ваше имя и телефон")
 	}
 	else {
-		window.location.href = 'https://khamzat.site/xam/thank-you.html'
+		window.location.href = 'https://zura95.site/thank-you.html'
 	}
 });
 

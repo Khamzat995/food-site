@@ -700,8 +700,8 @@ header .navbar a:hover {
   padding-top: 3%;
 }
 
-
 .items__control {
+  height: 100%;
   font-weight: bold;
   width: 30px;
   cursor: pointer;
@@ -784,7 +784,6 @@ header .navbar a:hover {
 
 .h55 {
   color: #333;
-  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -1522,4 +1521,10 @@ form {
   .pulse-1 {
     margin-left: 10px;
   }
+
+  .form-group .form-control {
+    height: 40px;
+    font-size: large;
+  }
+
 }

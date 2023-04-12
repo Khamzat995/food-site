@@ -36,8 +36,6 @@ var btnCloseModal = document.getElementById("myBtn");
 
 var span = document.getElementsByClassName("close")[0];
 
-
-
 btnCloseModal.onclick = function () {
   modal.style.display = "block";
 }
