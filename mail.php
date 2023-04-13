@@ -20,7 +20,7 @@ foreach ($myArray as $key => $value) {
 	    $prod .= "
 	    <tr>
 				<td style='padding: 10px; width: auto; border: #e9e9e9 1px solid;'><b>$title</b></td>
-				<td style='padding: 10px; max-width: 100px; border: #e9e9e9 1px solid;'>колич-во <b> $counter</b></td>
+				<td style='padding: 10px;  border: #e9e9e9 1px solid;'>колич-во <b> $counter</b></td>
 				<td style='padding: 10px; min-width: 80px; border: #e9e9e9 1px solid;'>по <b> $price</b></td>
 			</tr>
 	    

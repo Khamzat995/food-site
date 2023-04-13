@@ -4,8 +4,6 @@ function calcCartPriceAndDelivery() {
 	const totalPriceEl = document.querySelector('.total-price');
 	const deliveryCost = document.querySelector('.delivery-cost');
 	const cartDelivery = document.querySelector('[data-cart-delivery]');
-	/* const cifra = document.getElementById('cifra');
-	cifra.textContent = '0'; */
 
 	// Общая стоимость товаров
 	let priceTotal = 0;
@@ -16,7 +14,6 @@ function calcCartPriceAndDelivery() {
 		const amountEl = item.closest('.cart-item').querySelector('[data-counter]');
 		// Добавляем стоимость товара в общую стоимость (кол-во * цену)
 		priceTotal += parseInt(item.innerText) * parseInt(amountEl.innerText);
-		/* cifra.textContent = priceElements.length; */
 
 	});
 

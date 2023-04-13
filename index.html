@@ -7,16 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Кавказские блюда на заказ Стамбул, Бейликдюзю. Тел. +90 535-743-18-85" />
     <meta name="keywords" content="Еда приготовленная с любовью Стамбул - Бейликдюзю">
-
     <title>Национальные блюда на заказ</title>
-
     <link rel="icon" href="images/logo_icon_title.webp" type="image/webp ">
-    <!--  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
-    <!-- custom css file link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="db.js"></script>
+    <script src="dbReviews.js"></script>
 </head>
 
 <body>
@@ -25,7 +21,6 @@
         <a href="#" class="logo"><i class="fas fa-utensils"></i>Национальные блюда на заказ</a>
         <span id="myBtn">
             <div class="card-div">
-
                 <div id="cifra">0</div>
                 <img class="counter-card" src='images/shopping_cart.webp' width="30px"></img>
             </div>
@@ -38,9 +33,7 @@
                         <div class="card mb-4">
                             <div class="card-body">
                                 <span class="close">&times;</span>
-
                                 <h3 class="card-title">Ваш заказ</h3>
-
                                 <div data-cart-empty class="alert alert-secondary" role="alert">
                                     Корзина пуста
                                 </div>
@@ -49,7 +42,6 @@
                                 <div class="cart-wrapper">
                                     <!-- здесь сидят заказы -->
                                 </div>
-                                <!-- // cart-wrapper -->
 
                                 <!-- Стоимость заказа -->
                                 <div class="cart-total">
@@ -57,15 +49,12 @@
                                         <span class="small">Минимальная сумма заказа от 300 ₺</span></br>
                                         <span class="h55">Доставка:</span>
                                         <span class="delivery-cost">250 ₺</span><br>
-                                        <!-- <span class="small">при заказе от 2000₺ бесплатно</span> -->
                                     </p>
                                     <p><span class="h5">Итого:</span>
                                         <span name="Итого" class="total-price">0</span>
                                         <span class="rouble">₺</span>
                                     </p>
                                 </div>
-                                <!-- // Стоимость заказа -->
-
                             </div>
 
                             <!-- Оформить заказ -->
@@ -75,46 +64,22 @@
                                         <div class="form-group">
                                             <input type="text" name="Имя" class="form-control"
                                                 placeholder="Введите имя ...">
-                                            <!--  <div class="invalid-feedback feedback-name"></div> -->
                                             <input id="phone" type="tel" name="Телефон" class="form-control"
                                                 placeholder="Телефон +7928.. или +90531..">
-                                            <!-- <div class="invalid-feedback feedback-tel"></div> -->
                                         </div>
                                         <button id="zakaz" type="submit" class="btn btn-orange">
                                             <div class="order-btn">
                                                 Заказать
-                                                <!-- <img src="/images/WhatsApp.svg" width="40px"> -->
                                             </div>
                                         </button>
                                     </form>
-
-                                    <!-- <a href="https://wa.me/905357431885?text=Здравствуйте%2C+я+хочу+заказать:"
-                                        style="margin-left: 5%" target="_blank"> -->
-                                    <!-- </a> -->
                             </div>
-                            <!-- // Оформить заказ -->
-
                         </div>
-                        <!-- // Корзина -->
-
                     </div>
                     <!-- КОРЗИНА ФИНИШ-->
                 </section>
             </div>
-
         </div>
-
-
-        <!-- POPUP -->
-        <!-- <div id="overlayThank" class="overlay js-overlay-thank-you">
-            <div class="popup js-thank-you">
-                <h2>Спасибо за заявку</h2>
-                <div id="closePopup" class="close-popup js-close-thank-you"></div>
-            </div>
-        </div> -->
-        <!-- POPUP -->
-
-
 
         <div id="menu-bar" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -166,7 +131,6 @@
     </section>
     <!-- popular section ends -->
 
-
     <!-- steps section starts  -->
     <div class="step-container">
         <h1 class="heading">Как это <span>работает</span></h1>
@@ -176,8 +140,8 @@
     <!-- review section starts  -->
     <section class="review" id="review">
         <h1 class="heading"> Отзывы постоянных <span>клиентов</span> </h1>
-        <div class="box-container">
-            <div class="box">
+        <div id="reviewsContainer" class="box-container">
+            <!-- <div class="box">
                 <img src="images/pic1.webp" alt="pic11">
                 <h3>Марьяма</h3>
                 <div class="stars">
@@ -215,7 +179,7 @@
                 </div>
                 <p>Заказываем часто еду на всю семью. Спасибо огромное!!! Всё очень нравиться! Вкусно,
                     аппетитно и чувствуеться сделано с душой!!!</p>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- review section ends -->
@@ -279,18 +243,17 @@
         <img src="images/loader.gif" alt="pizza">
     </div>
 
-
     <!-- custom js file link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
     <script src="scriptOne.js"></script>
     <script src="scriptTwo.js"></script>
+    <script src="scriptReviews.js"></script>
     <script src="calcCartPrice.js"></script>
     <script src="toggleCartStatus.js"></script>
-    <script src="counter-02.js"></script>
-    <script src="cart-02.js"></script>
+    <script src="counter.js"></script>
+    <script src="cart.js"></script>
     <script src="script.js"></script>
-
 
 </body>
 

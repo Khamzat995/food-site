@@ -1074,6 +1074,7 @@ form {
   font-size: 2rem;
   color: var(--red);
   padding: .5rem 0;
+  font-style: normal;
 }
 
 .review .box-container .box p {
